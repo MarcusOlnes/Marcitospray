@@ -25,7 +25,6 @@ En enkel og clean nettsside bygget med HTML, CSS og JavaScript.
 - Bakgrunn: `#0F0F0F` (Deep Carbon)
 - Tekst: `#F2F0EB` (Alabaster)
 - Accent: `#0043E8` (Ultramarine)
-- Muted: `#666666`
 
 **Typografi:**
 - Main: Inter (400, 500, 700, 900)
