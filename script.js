@@ -29,7 +29,7 @@ async function loadPage(path) {
   if (!page) {
     // Try to find matching page
     const found = Object.entries(pages).find(([key]) => key === normalizedPath);
-    page = found ? found[1] : 'home.html';
+    page = found ? found[1] : 'index.html';
   }
 
   try {
