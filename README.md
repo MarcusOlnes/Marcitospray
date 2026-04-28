@@ -36,9 +36,6 @@ En enkel og clean nettsside bygget med HTML, CSS og JavaScript.
 - Brutalist/architectural feel
 - Raw grid-based layouts
 
-## Sider
 
 
-## Lisens
-
-© 2026 Marcitospray. Alle rettigheter reservert.
+© 2026 Marcitospray.
