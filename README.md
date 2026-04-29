@@ -5,7 +5,6 @@ En enkel og clean nettsside bygget med HTML, CSS og JavaScript.
 ## Struktur
 
 ```
-/
 ├── index.html              # Startfil (navigation + container)
 ├── styles.css              # All styling
 ├── script.js               # JavaScript for navigasjon og funksjonalitet
