@@ -10,6 +10,7 @@ En enkel og clean nettsside bygget med HTML, CSS og JavaScript.
 ├── styles.css              # All styling
 ├── script.js               # JavaScript for navigasjon og funksjonalitet
 ├── home.html               # Innhold for startsida
+└── photos                  # Mappe med bilder som brukes på nettsiden
 │
 └── pages/
     ├── graffiti.html           # Graffiti portfolio
