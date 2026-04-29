@@ -1,6 +1,7 @@
 # Marcitospray Website — HTML/CSS/JavaScript
 
 En enkel og clean nettsside bygget med HTML, CSS og JavaScript.
+Nå nettsiden her: www.marcitospray.com
 
 ## Struktur
 
@@ -55,4 +56,5 @@ En enkel og clean nettsside bygget med HTML, CSS og JavaScript.
 
 **Hosting & Deployment:**
 - **GitHub** – Versjonskontroll og repository
+- **Netlify** – Nettsidehosting og domeneregistrering
 
