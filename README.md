@@ -47,12 +47,12 @@ Nå nettsiden her: www.marcitospray.com
 ## Teknologier & Rammeverk
 
 **Frontend:**
-- **HTML5** 
-- **CSS3** 
-- **Vanilla JavaScript** 
+- **HTML** 
+- **CSS** 
+- **JavaScript** 
 
 **Biblioteker & Tjenester:**
-- **Formspree** – Form backend service for å samle kontaktskjema-svar
+- **Formspree** – Backend service for å samle inn svar fra kontaktskjema.
 
 **Hosting & Deployment:**
 - **GitHub** – Versjonskontroll og repository
