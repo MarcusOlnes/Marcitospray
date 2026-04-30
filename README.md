@@ -36,6 +36,23 @@ En enkel og clean nettsside bygget med HTML, CSS og JavaScript.
 - Brutalist/architectural feel
 - Raw grid-based layouts
 
+## Rediger her
 
 
 © 2026 Marcitospray.
+
+---
+
+## Teknologier & Rammeverk
+
+**Frontend:**
+- **HTML5** 
+- **CSS3** 
+- **Vanilla JavaScript** 
+
+**Biblioteker & Tjenester:**
+- **Formspree** – Form backend service for å samle kontaktskjema-svar
+
+**Hosting & Deployment:**
+- **GitHub** – Versjonskontroll og repository
+

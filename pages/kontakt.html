@@ -47,32 +47,36 @@
 
       <!-- Right — Form -->
       <div class="animate-on-scroll">
-        <div id="form-success" class="form-success">
+        <div data-fs-success class="form-success">
           <p>Takk for meldingen! Jeg vil kontakte deg snart.</p>
         </div>
 
         <form id="contact-form">
           <div class="form-group">
             <label for="name" class="form-label">Navn</label>
-            <input type="text" id="name" name="name" class="form-input" required>
+            <input type="text" id="name" name="name" class="form-input" data-fs-field required>
+            <span data-fs-error="name" class="form-error"></span>
           </div>
 
           <div class="form-group">
             <label for="email" class="form-label">E-post</label>
-            <input type="email" id="email" name="email" class="form-input" required>
+            <input type="email" id="email" name="email" class="form-input" data-fs-field required>
+            <span data-fs-error="email" class="form-error"></span>
           </div>
 
           <div class="form-group">
             <label for="subject" class="form-label">Emne</label>
-            <input type="text" id="subject" name="subject" class="form-input" placeholder="f.eks. Graffitiprosjekt">
+            <input type="text" id="subject" name="subject" class="form-input" data-fs-field placeholder="f.eks. Graffitiprosjekt">
+            <span data-fs-error="subject" class="form-error"></span>
           </div>
 
           <div class="form-group">
             <label for="message" class="form-label">Melding</label>
-            <textarea id="message" name="message" class="form-textarea" required></textarea>
+            <textarea id="message" name="message" class="form-textarea" data-fs-field required></textarea>
+            <span data-fs-error="message" class="form-error"></span>
           </div>
 
-          <button type="submit" class="btn">Send melding</button>
+          <button type="submit" class="btn" data-fs-submit-btn>Send melding</button>
         </form>
       </div>
     </div>

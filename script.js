@@ -1,4 +1,9 @@
 // ============================================================================
+// FORMSPREE INITIALIZATION
+// ============================================================================
+window.formspree = window.formspree || function () { (window.formspree.q = window.formspree.q || []).push(arguments); };
+
+// ============================================================================
 // PAGE ROUTING & CONTENT LOADING
 // ============================================================================
 
@@ -104,30 +109,13 @@ function setupContactForm() {
   const form = document.getElementById('contact-form');
   if (!form) return;
 
-  form.addEventListener('submit', (e) => {
-    e.preventDefault();
-    
-    const name = form.querySelector('input[name="name"]').value;
-    const email = form.querySelector('input[name="email"]').value;
-    const message = form.querySelector('textarea[name="message"]').value;
-
-    // Simulate form submission
-    console.log('Form submitted:', { name, email, message });
-    
-    // Show success message
-    const successMsg = document.getElementById('form-success');
-    if (successMsg) {
-      successMsg.classList.add('show');
-      form.style.display = 'none';
-      
-      // Reset after 5 seconds
-      setTimeout(() => {
-        form.reset();
-        form.style.display = 'block';
-        successMsg.classList.remove('show');
-      }, 5000);
-    }
-  });
+  // Initialize Formspree
+  if (window.formspree) {
+    window.formspree('initForm', { 
+      formElement: '#contact-form', 
+      formId: 'mdabndyd' 
+    });
+  }
 }
 
 // ============================================================================
