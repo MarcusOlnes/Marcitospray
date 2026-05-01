@@ -1,7 +1,7 @@
 # Marcitospray Website — HTML/CSS/JavaScript
 
-En enkel og clean nettsside bygget med HTML, CSS og JavaScript.
-Nå nettsiden her: www.marcitospray.com
+En enkel og clean nettsside bygget med HTML, CSS og JavaScript. </br>
+Sjekk ut nettsiden her: www.marcitospray.com
 
 ## Struktur
 
