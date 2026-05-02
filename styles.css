@@ -923,6 +923,7 @@ a:hover {
 
   h1 {
     font-size: clamp(2rem, 10vw, 3.5rem);
+    white-space: normal;
   }
 
   h2 {
